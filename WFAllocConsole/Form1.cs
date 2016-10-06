@@ -54,5 +54,10 @@ namespace WFAllocConsole
         {
             Console.WriteLine("This is sample text");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("Normal \x1B[91mRed \x1B[92mGreen \x1B[94mBlue \x1B[mDone");
+        }
     }
 }
